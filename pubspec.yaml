@@ -1,8 +1,8 @@
 name: dnie_tools_flutter
 description: Flutter DNIe tools
 version: 0.0.1
-author:
-homepage:
+author: Sergio Casero
+homepage: https://github.com/sergiocasero
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
