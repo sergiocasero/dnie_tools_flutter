@@ -1,4 +1,4 @@
-package com.sergiocasero.dnie_tools_flutter;
+package com.sergiocasero.dnie_tools;
 
 import java.io.EOFException;
 import java.io.IOException;

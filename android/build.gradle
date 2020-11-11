@@ -1,4 +1,4 @@
-group 'com.sergiocasero.dnie_tools_flutter'
+group 'com.sergiocasero.dnie_tools'
 version '1.0-SNAPSHOT'
 
 buildscript {

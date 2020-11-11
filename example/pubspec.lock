@@ -50,7 +50,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
-  dnie_tools_flutter:
+  dnie_tools:
     dependency: "direct main"
     description:
       path: ".."

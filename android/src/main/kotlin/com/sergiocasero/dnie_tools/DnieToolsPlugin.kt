@@ -1,4 +1,4 @@
-package com.sergiocasero.dnie_tools_flutter
+package com.sergiocasero.dnie_tools
 
 import android.app.Activity
 import androidx.annotation.NonNull
@@ -12,12 +12,8 @@ import io.flutter.plugin.common.MethodChannel.Result
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-/** DnieToolsFlutterPlugin */
-class DnieToolsFlutterPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
-    /// The MethodChannel that will the communication between Flutter and native Android
-    ///
-    /// This local reference serves to register the plugin with the Flutter Engine and unregister it
-    /// when the Flutter Engine is detached from the Activity
+/** DnieToolsPlugin */
+class DnieToolsPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
     private lateinit var channel: MethodChannel
 
     private val dnieReader by lazy {
@@ -97,7 +93,7 @@ class DnieToolsFlutterPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
     private lateinit var activity: Activity
 
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "dnie_tools_flutter")
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "dnie_tools")
         channel.setMethodCallHandler(this)
     }
 

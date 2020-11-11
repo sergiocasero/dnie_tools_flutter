@@ -1,7 +1,6 @@
-name: dnie_tools_flutter
+name: dnie_tools
 description: Flutter DNIe tools
 version: 0.0.1
-author: Sergio Casero
 homepage: https://github.com/sergiocasero
 
 environment:
@@ -20,7 +19,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.sergiocasero.dnie_tools_flutter
-        pluginClass: DnieToolsFlutterPlugin
-      ios:
-        pluginClass: DnieToolsFlutterPlugin
+        package: com.sergiocasero.dnie_tools
+        pluginClass: DnieToolsPlugin
+      # ios:
+      #   pluginClass: DnieToolsFlutterPlugin

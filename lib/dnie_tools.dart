@@ -1,12 +1,11 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:dnie_tools_flutter/DnieResponse.dart';
+import 'package:dnie_tools/DnieResponse.dart';
 import 'package:flutter/services.dart';
 
 class DnieTools {
-  static const MethodChannel _channel =
-      const MethodChannel('dnie_tools_flutter');
+  static const MethodChannel _channel = const MethodChannel('dnie_tools');
 
   static StreamController<DnieResponse> _controller =
       StreamController.broadcast();

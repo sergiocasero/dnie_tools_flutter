@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:dnie_tools_flutter/dnie_tools_flutter.dart';
+import 'package:dnie_tools/dnie_tools.dart';
 import 'package:flutter/material.dart';
 
 void main() {
