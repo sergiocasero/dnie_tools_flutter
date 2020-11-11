@@ -6,6 +6,12 @@ Flutter DNIe tools
 
 This library is under heavy development!! For sure I will improve it on next versions so be carefull to use it!!
 
+# Roadmap
+
+- Read DNIe -> DONE
+- Auth with DNIe -> WIP
+- Sign with DNIe -> WIP
+
 ## Getting Started
 
 This project is a
